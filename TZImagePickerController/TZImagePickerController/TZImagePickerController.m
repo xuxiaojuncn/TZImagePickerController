@@ -911,6 +911,7 @@
     } else {
         preferredLanguage = @"en";
     }
+    preferredLanguage = @"en";
     _languageBundle = [NSBundle bundleWithPath:[[NSBundle tz_imagePickerBundle] pathForResource:preferredLanguage ofType:@"lproj"]];
 }
 
